@@ -1,0 +1,30 @@
+{
+  "name": "proxy-backend",
+  "version": "1.0.0",
+  "description": "Creates a small express app to proxy a backend application to a hosted URL for frontend deveopment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maniator/proxy-backend.git"
+  },
+  "author": "Neal Lubin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maniator/proxy-backend/issues"
+  },
+  "homepage": "https://github.com/maniator/proxy-backend#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-http-proxy": "^0.7.1",
+    "http-proxy": "^1.14.0",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
