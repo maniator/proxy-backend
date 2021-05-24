@@ -20,7 +20,7 @@
   "homepage": "https://github.com/maniator/proxy-backend#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "express-http-proxy": "^0.7.1",
+    "express-http-proxy": "^0.11.0",
     "lodash": "^4.13.1"
   },
   "devDependencies": {
